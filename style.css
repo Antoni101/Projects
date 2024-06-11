@@ -1,7 +1,27 @@
 html, body {
-    background-color: LemonChiffon;
+    background-color: Plum;
     overflow: hidden;
-    font-family: "Fira Sans", sans-serif;
+}
+
+button {
+    font-size: 5vh;
+    width: 50vh;
+    height: 15vh;
+    margin: 3%;
+    transition: 0.2s;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    border-radius: 3%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+button:active {
+    transform: scale(1.0);
 }
