@@ -28,7 +28,7 @@ button:active {
     transform: scale(1.0);
 }
 
-.important {
+.good {
     border: 2px solid GreenYellow;
     background-color: lightyellow;
 }
