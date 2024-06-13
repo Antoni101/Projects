@@ -4,15 +4,16 @@ html, body {
 }
 
 button {
-    font-size: 5vh;
-    width: 50vh;
-    height: 15vh;
-    margin: 3%;
-    transition: 0.2s;
-    font-family: "Roboto", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
-    border-radius: 3%;
+    font-size: 3vh;
+    width: 30vh;
+    height: 10vh;
+    margin: 4%;
+    transition: 0.2s;
+    font-style: normal;
+    border-radius: 10px;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -20,8 +21,20 @@ button {
 button:hover {
     transform: scale(1.05);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
 }
 
 button:active {
     transform: scale(1.0);
 }
+
+.important {
+    border: 2px solid GreenYellow;
+    background-color: lightyellow;
+}
+
+.mid {
+    border: 2px solid lightslategray;
+    background-color: lightgrey;
+}
+
