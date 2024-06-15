@@ -29,8 +29,8 @@ button:active {
 }
 
 .good {
-    border: 2px solid GreenYellow;
-    background-color: lightyellow;
+    border: 2px solid green;
+    background-color: lightgreen;
 }
 
 .mid {
